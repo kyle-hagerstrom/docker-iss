@@ -17,6 +17,8 @@ from pymongo import MongoClient
     2. Update the db name to your UVA computing ID on line 68.
 """
 
+print("This is a change to main.py to test triggering a build.")
+
 # logging config
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
